@@ -1,0 +1,339 @@
+
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgba(128, 128, 128, 0.616);
+}
+nav .logo{
+    margin-left: 20px;
+}
+nav .logo h3{
+    font-style: italic;
+    color: purple;
+}
+nav a{
+    font-size: 20px;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    font-size: 18px;
+}
+#responav{
+    display: none;
+}
+
+/* INDEX.HTML  */
+#one{
+    background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgba(31, 30, 31, 0.849));
+    min-height: 60vh;
+}
+#one .container{
+    min-width: 100%;
+}
+#one .left{
+    min-height: 100vh;
+    color: rgba(255, 255, 255, 0.877);
+    min-width: 55%;
+    padding-left: 40px;
+}
+#one .left h1{
+    line-height: 50px;
+    width: 80%;
+}
+#one .left h5{
+    font-weight: 400;
+    width: 100%;
+    font-style: italic;
+}
+#one .left span{
+    color: purple;
+}
+#one .right{
+    width: 45%;
+}
+#one .right img{
+    height: 300px;
+    border-radius: 300px;
+}
+#one .right h6{
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+#two{
+    min-height: 80vh;
+    background-image: linear-gradient(to bottom, rgba(31, 30, 31, 0.849), rgba(0, 0, 0, 0.822));
+    color: whitesmoke;
+    display: flex;
+}
+#two .container{
+    min-width: 100%;
+    display: flex;
+}
+#two .left{
+    min-width: 50%;
+    min-height: 80vh;
+    padding-left: 30px;
+}
+#two .left h1{
+    font-weight: lighter;
+}
+#two .left h2{
+    font-weight: lighter;
+    font-size: 23px;
+    width: 80%;
+    line-height: 30px;
+}
+#two .right h1{
+    font-weight: lighter;
+}
+#two .right h2{
+    font-weight: lighter;
+    font-size: 23px;
+    width: 80%;
+    line-height: 30px;
+}
+#two .right{
+    min-width: 50%;
+}
+#two a{
+    font-size: 20px;
+    font-style: italic;
+    color: purple;
+}
+/* END OF INDEX.HTML */
+
+
+/* ABOUT.HTML */
+#major{
+    background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgb(31, 30, 31));
+}
+#major .container{
+    min-width: 100%;
+}
+#major .line{
+    position: absolute;
+    background-color: purple;
+    height: 4px;
+    width: 150px;
+    top: 210px;
+    left: 53px;
+}
+#major .left{
+    min-width: 55%;
+    min-height: 100vh;
+    padding-left: 50px;
+}
+#major .left span{
+    font-weight: 600;
+}
+#major .left h1{
+    font-weight: lighter;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+#major .left h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: whitesmoke;
+}
+#major .right{
+    min-width: 45%;
+    min-height: 100vh;
+    padding-left: 60px;
+}
+#major .right h4{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+#major .right h2{
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+/* END OF ABOUT.HTML */
+
+
+/* CONTACT.HTML */
+#contact{
+    background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgb(31, 30, 31));
+    min-height: 93vh;
+    color: whitesmoke;
+}
+#contact .container{
+    min-width: 100%;
+    min-height: 80vh;
+}
+#contact .mid{
+    background-color: rgba(128, 0, 128, 0.151);
+    box-shadow: 10px 10px 40px rgba(255, 255, 255, 0.151);
+    height: 500px;
+    width: 550px;
+}
+#contact .mid h1{
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: lighter;
+}
+#contact .mid input{
+    border-top: transparent;
+    background-color: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width: 300px;
+    height: 50px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+#contact .mid input::placeholder{
+    color: rgba(255, 255, 255, 0.664);
+}
+#contact .mid .inp input{
+    background: transparent;
+    border: 2px solid whitesmoke;
+    border-top: 2px solid whitesmoke;
+    color: whitesmoke;
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#contact .mid h4{
+    font-size: 15px;
+}
+#contact .mid h6{
+    font-size: 13px;
+    font-weight: lighter;
+    width: 80%;
+    line-height: 20px;
+}
+#contact .mid .one{
+    padding-left: 30px;
+}
+
+/* END OF CONTACT.HTML */
+
+
+/* TABLET MODE */
+@media (max-width: 768px){
+    #one .left h1{
+        line-height: 40px;
+        width: 100%;
+    }
+    #one .right img{
+        height: 200px;
+        border-radius: 200px;
+    }
+    #two .left h2{
+        font-size: 20px;
+    }
+    #two .right h2{
+        font-size: 20px;
+    }
+    #major .line{
+        display: none;
+    }
+    #major .left h1{
+        font-size: 45px;
+    }
+    #major .left h3{
+        font-size: 18px;
+    }
+    #major .right h4{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    #major .right h2{
+        font-size: 20px;
+    }
+    #contact .mid h1{
+        font-size: 40px;
+    }
+}
+/* END OF TABLET MODE */
+
+/* LARGE MOBILE SCREEN */
+@media (max-width: 425px){
+    /* nav {
+        display: none;
+    } */
+    /* #responav{
+        display:list-item;
+    } */
+    nav .logo h3{
+        font-size: 16px;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+    #one, #one .container, #one .row{
+        display: flex;
+        flex-direction: column;
+    }
+    #one .left{
+        padding-left: 30px;
+        min-height: 50vh;
+        min-width: 100%;
+    }
+    #one .left, #one .right{
+        min-height: 50vh;
+        min-width: 100%;
+    }
+    #one .left h1{
+        line-height: 33px;
+        font-size: 25px;
+        width: 90%;
+    }
+    #one .left h5{
+        width: 90%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #one .right h6{
+        font-size: 18px;
+    }
+    #two, #two .container{
+        flex-direction: column;
+    }
+    #two .left, #two .right{
+        min-height: 50vh;
+    }
+    #two .right{
+        padding-left: 30px;
+    }
+    #major, #major .container, #major .row{
+        display: flex;
+        flex-direction: column;
+    }
+    #major .left, #major .right{
+        min-height: 50vh;
+    }
+    #major .left{
+        margin-bottom: 20px;
+    }
+    #major .left h1{
+        font-size: 35px;
+    }
+    #major .left h3{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    #major .right{
+        color: whitesmoke;
+    }
+    #major .right h4{
+        font-size: 16px;
+    }
+    #major .right h2{
+        font-size: 18px;
+    }
+    
+}
+ /* END OF LARGE MOBILE SCREEN */
