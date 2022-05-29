@@ -6,16 +6,12 @@
 nav{
     background-color: rgba(128, 128, 128, 0.616);
 }
-nav .logo{
-    margin-left: 20px;
-}
-nav .logo h3{
-    color: purple;
-}
 nav a{
     font-size: 20px;
 }
-
+.purple{
+    color: purple;
+}
 #one{
     background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgba(31, 30, 31, 0.849));
     min-height: 60vh;
@@ -25,9 +21,7 @@ nav a{
 }
 #one .left{
     min-height: 100vh;
-    color: rgba(255, 255, 255, 0.877);
     min-width: 55%;
-    padding-left: 40px;
 }
 #one .left h1{
     line-height: 50px;
@@ -36,15 +30,11 @@ nav a{
 #one .left h5{
     width: 100%;
 }
-#one .left span{
-    color: purple;
-}
 #one .right{
     width: 45%;
 }
 #one .right img{
     height: 300px;
-    border-radius: 300px;
 }
 #one .right h6{
     font-size: 20px;
@@ -53,7 +43,6 @@ nav a{
 #two{
     min-height: 80vh;
     background-image: linear-gradient(to bottom, rgba(31, 30, 31, 0.849), rgba(0, 0, 0, 0.822));
-    color: whitesmoke;
 }
 #two .container{
     min-width: 100%;
@@ -61,7 +50,6 @@ nav a{
 #two .left{
     min-width: 50%;
     min-height: 80vh;
-    padding-left: 30px;
 }
 #two .left h2{
     font-size: 23px;
@@ -87,7 +75,6 @@ nav a{
     min-width: 100%;
 }
 #major .line{
-    position: absolute;
     background-color: purple;
     height: 4px;
     width: 150px;
@@ -97,11 +84,9 @@ nav a{
 #major .left{
     min-width: 55%;
     min-height: 100vh;
-    padding-left: 50px;
 }
 #major .left h1{
     font-size: 55px;
-    margin-bottom: 15px;
 }
 #major .left h3{
     font-size: 20px;
@@ -110,15 +95,12 @@ nav a{
 #major .right{
     min-width: 45%;
     min-height: 100vh;
-    padding-left: 60px;
 }
 #major .right h4{
     font-size: 20px;
-    margin-bottom: 8px;
 }
 #major .right h2{
     font-size: 23px;
-    margin-bottom: 25px;
 }
 
 #contact{
@@ -136,12 +118,9 @@ nav a{
     width: 550px;
 }
 #contact .mid h1{
-    padding-top: 20px;
-    margin-bottom: 30px;
     font-size: 50px;
 }
 #contact .mid input{
-    background-color: transparent;
     width: 300px;
     height: 50px;
     margin-bottom: 30px;
@@ -150,11 +129,8 @@ nav a{
     color: rgba(255, 255, 255, 0.664);
 }
 #contact .mid .inp input{
-    background: transparent;
-    border: 2px solid whitesmoke;
     width: 150px;
     height: 40px;
-    margin-top: 20px;
 }
 #contact .mid h4{
     font-size: 15px;
@@ -164,10 +140,6 @@ nav a{
     width: 80%;
     line-height: 20px;
 }
-#contact .mid .one{
-    padding-left: 30px;
-}
-
 
 /* TABLET MODE */
 @media (max-width: 768px){
@@ -177,7 +149,6 @@ nav a{
     }
     #one .right img{
         height: 200px;
-        border-radius: 200px;
     }
     #two .left h2{
         font-size: 20px;
@@ -196,7 +167,6 @@ nav a{
     }
     #major .right h4{
         font-size: 18px;
-        margin-bottom: 5px;
     }
     #major .right h2{
         font-size: 20px;
@@ -205,7 +175,6 @@ nav a{
         font-size: 40px;
     }
 }
-/* END OF TABLET MODE */
 /* LARGE MOBILE SCREEN */
 @media (max-width: 425px){
     nav .logo h3{
@@ -276,4 +245,3 @@ nav a{
         font-size: 18px;
     }
 }
- /* END OF LARGE MOBILE SCREEN */
