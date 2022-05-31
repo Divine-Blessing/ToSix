@@ -1,12 +1,7 @@
-*, ::before, ::after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 nav{
     background-color: rgba(128, 128, 128, 0.616);
 }
-nav a{
+nav a, #major .left h3, #major .right h4{
     font-size: 20px;
 }
 .purple{
@@ -49,7 +44,6 @@ nav a{
     min-height: 80vh;
 }
 #two .left h2, #two .right h2{
-    font-size: 23px;
     width: 80%;
     line-height: 30px;
 }
@@ -70,21 +64,16 @@ nav a{
     font-size: 55px;
 }
 #major .left h3{
-    font-size: 20px;
     line-height: 28px;
 }
-#major .right h4{
-    font-size: 20px;
-}
-#major .right h2{
+#two .left h2, #two .right h2, #major .right h2{
     font-size: 23px;
 }
 #contact{
     background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgb(31, 30, 31));
-    min-height: 93vh;
 }
-#contact .container{
-    min-height: 80vh;
+#contact, #contact .container{
+    min-height: 93vh;
 }
 #contact .mid{
     background-color: rgba(128, 0, 128, 0.151);
@@ -115,7 +104,6 @@ nav a{
     width: 80%;
     line-height: 20px;
 }
-/* TABLET MODE */
 @media (max-width: 768px){
     #one .left h1{
         line-height: 40px;
@@ -124,25 +112,18 @@ nav a{
     #one .right img{
         height: 200px;
     }
-    #two .left h2, #two .right h2, #major .right h2{
-        font-size: 20px;
+    #two .left h2, #two .right h2, #major .right h2, #major .left h3, #major .right h4{
+        font-size: 18px;
     }
     #major .line{
         display: none;
     }
-    #major .left h1{
-        font-size: 45px;
-    }
-    #major .left h3, #major .right h4{
-        font-size: 18px;
-    }
-    #contact .mid h1{
+    #major .left h1, #contact .mid h1{
         font-size: 40px;
     }
 }
-/* LARGE MOBILE SCREEN */
 @media (max-width: 425px){
-    nav .logo h3, #major .right h4, #major .left h3{
+    nav .logo h3, #major .right h4, #major .left h3, #one .left h5, #one .right h6, #major .right h2{
         font-size: 16px;
     }
     nav ul li a{
@@ -161,16 +142,11 @@ nav a{
         min-height: 50vh;
     }
     #one .left h1{
-        line-height: 33px;
         font-size: 25px;
-        width: 90%;
     }
-    #one .left h5{
+    #one .left h1, #one .left h5{
         width: 90%;
-        line-height: 28px;
-    }
-    #one .left h5, #one .right h6, #major .right h2{
-        font-size: 18px;
+        line-height: 30px;
     }
     #major .left{
         margin-bottom: 20px;
