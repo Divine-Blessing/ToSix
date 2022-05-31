@@ -12,6 +12,9 @@ nav a{
 .purple{
     color: purple;
 }
+#one .left, #major .left, #major .right{
+    min-height: 100vh;
+}
 #one{
     background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgba(31, 30, 31, 0.849));
     min-height: 60vh;
@@ -19,8 +22,7 @@ nav a{
 #one .container, #two .container, #major .container, #contact .container{
     min-width: 100%;
 }
-#one .left{
-    min-height: 100vh;
+#one .left, #major .left{
     min-width: 55%;
 }
 #one .left h1{
@@ -30,22 +32,20 @@ nav a{
 #one .left h5{
     width: 100%;
 }
-#one .right{
+#one .right, #major .right{
     width: 45%;
 }
 #one .right img{
     height: 300px;
 }
-#one .right h6{
+#one .right h6, #two a{
     font-size: 20px;
     letter-spacing: 1px;
 }
 #two{
-    min-height: 80vh;
     background-image: linear-gradient(to bottom, rgba(31, 30, 31, 0.849), rgba(0, 0, 0, 0.822));
 }
-#two .left{
-    min-width: 50%;
+#two, #two .left{
     min-height: 80vh;
 }
 #two .left h2, #two .right h2{
@@ -53,13 +53,9 @@ nav a{
     width: 80%;
     line-height: 30px;
 }
-#two .right{
+#two .left, #two .right{
     min-width: 50%;
 }
-#two a{
-    font-size: 20px;
-}
-
 #major{
     background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgb(31, 30, 31));
 }
@@ -70,10 +66,6 @@ nav a{
     top: 210px;
     left: 53px;
 }
-#major .left{
-    min-width: 55%;
-    min-height: 100vh;
-}
 #major .left h1{
     font-size: 55px;
 }
@@ -81,17 +73,12 @@ nav a{
     font-size: 20px;
     line-height: 28px;
 }
-#major .right{
-    min-width: 45%;
-    min-height: 100vh;
-}
 #major .right h4{
     font-size: 20px;
 }
 #major .right h2{
     font-size: 23px;
 }
-
 #contact{
     background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgb(31, 30, 31));
     min-height: 93vh;
@@ -128,7 +115,6 @@ nav a{
     width: 80%;
     line-height: 20px;
 }
-
 /* TABLET MODE */
 @media (max-width: 768px){
     #one .left h1{
@@ -156,7 +142,7 @@ nav a{
 }
 /* LARGE MOBILE SCREEN */
 @media (max-width: 425px){
-    nav .logo h3, #major .right h4{
+    nav .logo h3, #major .right h4, #major .left h3{
         font-size: 16px;
     }
     nav ul li a{
@@ -168,7 +154,7 @@ nav a{
     .mwid{
         min-width: 100%;
     }
-    #one .left{
+    #one .left, #two .right{
         padding-left: 30px;
     }
     #one .left, #one .right, #two .left, #two .right, #major .left, #major .right{
@@ -181,14 +167,10 @@ nav a{
     }
     #one .left h5{
         width: 90%;
-        font-size: 18px;
         line-height: 28px;
     }
-    #one .right h6, #major .right h2{
+    #one .left h5, #one .right h6, #major .right h2{
         font-size: 18px;
-    }
-    #two .right{
-        padding-left: 25px;
     }
     #major .left{
         margin-bottom: 20px;
@@ -197,7 +179,6 @@ nav a{
         font-size: 35px;
     }
     #major .left h3{
-        font-size: 15px;
         line-height: 22px;
         color: black;
     }
