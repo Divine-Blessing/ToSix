@@ -16,7 +16,7 @@ nav a{
     background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgba(31, 30, 31, 0.849));
     min-height: 60vh;
 }
-#one .container{
+#one .container, #two .container, #major .container, #contact .container{
     min-width: 100%;
 }
 #one .left{
@@ -44,19 +44,11 @@ nav a{
     min-height: 80vh;
     background-image: linear-gradient(to bottom, rgba(31, 30, 31, 0.849), rgba(0, 0, 0, 0.822));
 }
-#two .container{
-    min-width: 100%;
-}
 #two .left{
     min-width: 50%;
     min-height: 80vh;
 }
-#two .left h2{
-    font-size: 23px;
-    width: 80%;
-    line-height: 30px;
-}
-#two .right h2{
+#two .left h2, #two .right h2{
     font-size: 23px;
     width: 80%;
     line-height: 30px;
@@ -70,9 +62,6 @@ nav a{
 
 #major{
     background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgb(31, 30, 31));
-}
-#major .container{
-    min-width: 100%;
 }
 #major .line{
     background-color: purple;
@@ -108,7 +97,6 @@ nav a{
     min-height: 93vh;
 }
 #contact .container{
-    min-width: 100%;
     min-height: 80vh;
 }
 #contact .mid{
@@ -150,10 +138,7 @@ nav a{
     #one .right img{
         height: 200px;
     }
-    #two .left h2{
-        font-size: 20px;
-    }
-    #two .right h2{
+    #two .left h2, #two .right h2, #major .right h2{
         font-size: 20px;
     }
     #major .line{
@@ -162,14 +147,8 @@ nav a{
     #major .left h1{
         font-size: 45px;
     }
-    #major .left h3{
+    #major .left h3, #major .right h4{
         font-size: 18px;
-    }
-    #major .right h4{
-        font-size: 18px;
-    }
-    #major .right h2{
-        font-size: 20px;
     }
     #contact .mid h1{
         font-size: 40px;
@@ -177,23 +156,23 @@ nav a{
 }
 /* LARGE MOBILE SCREEN */
 @media (max-width: 425px){
-    nav .logo h3{
+    nav .logo h3, #major .right h4{
         font-size: 16px;
     }
     nav ul li a{
         font-size: 12px;
     }
-    #one, #one .container, #one .row{
+    .fcols{
         flex-direction: column;
+    }
+    .mwid{
+        min-width: 100%;
     }
     #one .left{
         padding-left: 30px;
-        min-height: 50vh;
-        min-width: 100%;
     }
-    #one .left, #one .right{
+    #one .left, #one .right, #two .left, #two .right, #major .left, #major .right{
         min-height: 50vh;
-        min-width: 100%;
     }
     #one .left h1{
         line-height: 33px;
@@ -205,27 +184,14 @@ nav a{
         font-size: 18px;
         line-height: 28px;
     }
-    #one .right h6{
+    #one .right h6, #major .right h2{
         font-size: 18px;
     }
-    #two, #two .container{
-        flex-direction: column;
-    }
-    #two .left, #two .right{
-        min-height: 50vh;
-    }
     #two .right{
-        padding-left: 30px;
-    }
-    #major, #major .container, #major .row{
-        flex-direction: column;
-    }
-    #major .left, #major .right{
-        min-height: 50vh;
+        padding-left: 25px;
     }
     #major .left{
         margin-bottom: 20px;
-        
     }
     #major .left h1{
         font-size: 35px;
@@ -237,11 +203,5 @@ nav a{
     }
     #major .right{
         color: whitesmoke;
-    }
-    #major .right h4{
-        font-size: 16px;
-    }
-    #major .right h2{
-        font-size: 18px;
     }
 }
