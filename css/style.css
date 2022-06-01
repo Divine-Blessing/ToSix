@@ -1,61 +1,26 @@
 nav{background-color: rgba(128, 128, 128, 0.616);}
 nav a, #one .right h6, #two a, #major .left h3, #major .right h4{ font-size: 20px;}
-.purple{color: purple;}
-#one .left, #major .left, #major .right{min-height: 100vh;}
-#one{min-height: 60vh;}
-#one .container, #two .container, #major .container, #contact .container{min-width: 100%;}
-#one .left, #major .left{min-width: 55%;}
-#one .left h1{line-height: 50px;}
-#one .left h1, #one .left h5{width: 100%;}
-#one .right, #major .right{width: 45%;}
-#one .right img{height: 300px;}
-#two{background-image: linear-gradient(to bottom, rgba(31, 30, 31), rgba(0, 0, 0, 0.822));}
-#two .left h2, #two .right h2{
-    width: 80%;
-    line-height: 30px; }
-#two .left, #two .right{min-width: 50%;}
-#one, #major{background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgb(31, 30, 31));}
-#major .line{
-    background-color: purple;
-    height: 4px;
-    width: 150px;
-    top: 210px;
-    left: 53px; }
-#major .left h1{ font-size: 55px;}
-#two .left h2, #two .right h2, #major .right h2{font-size: 23px;}
+.purple{color: purple;} #one .left, #major .left, #major .right{min-height: 100vh;}
+#one{min-height: 60vh;} #one .container, #two .container, #major .container, #contact .container{min-width: 100%;}
+#one .left, #major .left{min-width: 55%;} #one .left h1{line-height: 50px;} #one .left h1, #one .left h5{width: 100%;}
+#one .right, #major .right{width: 45%;} #one .right img{height: 300px;} #two{background-image: linear-gradient(to bottom, rgba(31, 30, 31), rgba(0, 0, 0, 0.822));}
+#two .left h2, #two .right h2{ width: 80%; line-height: 30px; }
+#two .left, #two .right{min-width: 50%;} #one, #major{background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgb(31, 30, 31));}
+#major .line{ background-color: purple; height: 4px; width: 150px; top: 210px; left: 53px; }
+#major .left h1{ font-size: 55px;} #two .left h2, #two .right h2, #major .right h2{font-size: 23px;}
 #contact{background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgb(31, 30, 31));}
-#contact, #contact .container{min-height: 93vh;}
-#contact .mid{
-    background-color: rgba(128, 0, 128, 0.151);
-    box-shadow: 10px 10px 40px rgba(255, 255, 255, 0.151);
-    height: 500px;
-    width: 550px; }
-#contact .mid h1{font-size: 50px;}
-#contact .mid input{
-    width: 300px;
-    height: 50px;
-    margin-bottom: 30px; }
+#contact, #contact .container{min-height: 93vh;} #contact .mid{ background-color: rgba(128, 0, 128, 0.151); box-shadow: 10px 10px 40px rgba(255, 255, 255, 0.151); height: 500px; width: 550px; }
+#contact .mid h1{font-size: 50px;} #contact .mid input{ width: 300px; height: 50px; margin-bottom: 30px; }
 #contact .mid input::placeholder{color: rgba(255, 255, 255, 0.664);}
-#contact .mid .inp input{ width: 150px;}
-#contact .mid h4, #contact .mid h6{ font-size: 13px; width: 80%;}
+#contact .mid .inp input{ width: 150px;} #contact .mid h4, #contact .mid h6{ font-size: 13px; width: 80%;}
 @media (max-width: 768px){
-    #one .left h1{ line-height: 40px;}
-    #one .right img{height: 200px; }
-    #two .left h2, #two .right h2, #major .right h2, #major .left h3, #major .right h4{ font-size: 18px; line-height: 25px;}
-    #major .line { display: none;}
-    #major .left h1, #contact .mid h1{font-size: 40px;}
+    #one .left h1{ line-height: 40px;} #one .right img{height: 200px; } #two .left h2, #two .right h2, #major .right h2, #major .left h3, #major .right h4{ font-size: 18px; line-height: 25px;}
+    #major .line { display: none;} #major .left h1, #contact .mid h1{font-size: 40px;}
 }
 @media (max-width: 425px){
     nav .logo h3, #major .right h4, #major .left h3, #one .left h5, #one .right h6, #major .right h2{font-size: 16px;}
-    nav ul li a{ font-size: 12px;}
-    .fcols{flex-direction: column;}
-    .mwid{min-width: 100%;}
-    #one .left, #two .right{padding-left: 30px;}
-    #one .left, #one .right, #two .left, #two .right, #major .left, #major .right{min-height: 50vh;}
-    #one .left h1{font-size: 25px;}
-    #one .left h1, #one .left h5{width: 90%; line-height: 30px;}
-    #major .left{margin-bottom: 20px;}
-    #major .left h1{font-size: 35px;}
-    #major .left h3{line-height: 22px; color: black;}
-    #major .right{color: whitesmoke;}
+    nav ul li a{ font-size: 12px;} .fcols{flex-direction: column;} .mwid{min-width: 100%;}
+    #one .left, #two .right{padding-left: 30px;} #one .left, #one .right, #two .left, #two .right, #major .left, #major .right{min-height: 50vh;}
+    #one .left h1{font-size: 25px;} #one .left h1, #one .left h5{width: 90%; line-height: 30px;}
+    #major .left{margin-bottom: 20px;} #major .left h1{font-size: 35px;}
 }
