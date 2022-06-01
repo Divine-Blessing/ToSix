@@ -69,9 +69,7 @@ nav a, #one .right h6, #two a, #major .left h3, #major .right h4{
     height: 500px;
     width: 550px;
 }
-#contact .mid h1{
-    font-size: 50px;
-}
+#contact .mid h1{font-size: 50px;}
 #contact .mid input{
     width: 300px;
     height: 50px;
@@ -80,17 +78,13 @@ nav a, #one .right h6, #two a, #major .left h3, #major .right h4{
 #contact .mid input::placeholder{
     color: rgba(255, 255, 255, 0.664);
 }
-#contact .mid .inp input{
-    width: 150px;
-}
+#contact .mid .inp input{ width: 150px;}
 #contact .mid h4, #contact .mid h6{
     font-size: 13px;
     width: 80%;
 }
 @media (max-width: 768px){
-    #one .left h1{
-        line-height: 40px;
-    }
+    #one .left h1{ line-height: 40px;}
     #one .right img{
         height: 200px;
     }
@@ -98,9 +92,7 @@ nav a, #one .right h6, #two a, #major .left h3, #major .right h4{
         font-size: 18px;
         line-height: 25px;
     }
-    #major .line {
-        display: none;
-    }
+    #major .line { display: none;}
     #major .left h1, #contact .mid h1{
         font-size: 40px;
     }
