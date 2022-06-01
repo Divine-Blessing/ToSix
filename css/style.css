@@ -1,7 +1,7 @@
 nav{
     background-color: rgba(128, 128, 128, 0.616);
 }
-nav a, #major .left h3, #major .right h4{
+nav a, #one .right h6, #two a, #major .left h3, #major .right h4{
     font-size: 20px;
 }
 .purple{
@@ -11,7 +11,6 @@ nav a, #major .left h3, #major .right h4{
     min-height: 100vh;
 }
 #one{
-    background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgba(31, 30, 31, 0.849));
     min-height: 60vh;
 }
 #one .container, #two .container, #major .container, #contact .container{
@@ -22,9 +21,8 @@ nav a, #major .left h3, #major .right h4{
 }
 #one .left h1{
     line-height: 50px;
-    width: 90%;
 }
-#one .left h5{
+#one .left h1, #one .left h5{
     width: 100%;
 }
 #one .right, #major .right{
@@ -33,15 +31,8 @@ nav a, #major .left h3, #major .right h4{
 #one .right img{
     height: 300px;
 }
-#one .right h6, #two a{
-    font-size: 20px;
-    letter-spacing: 1px;
-}
 #two{
-    background-image: linear-gradient(to bottom, rgba(31, 30, 31, 0.849), rgba(0, 0, 0, 0.822));
-}
-#two, #two .left{
-    min-height: 80vh;
+    background-image: linear-gradient(to bottom, rgba(31, 30, 31), rgba(0, 0, 0, 0.822));
 }
 #two .left h2, #two .right h2{
     width: 80%;
@@ -50,7 +41,7 @@ nav a, #major .left h3, #major .right h4{
 #two .left, #two .right{
     min-width: 50%;
 }
-#major{
+#one, #major{
     background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.616), rgb(31, 30, 31));
 }
 #major .line{
@@ -62,9 +53,6 @@ nav a, #major .left h3, #major .right h4{
 }
 #major .left h1{
     font-size: 55px;
-}
-#major .left h3{
-    line-height: 28px;
 }
 #two .left h2, #two .right h2, #major .right h2{
     font-size: 23px;
@@ -94,28 +82,23 @@ nav a, #major .left h3, #major .right h4{
 }
 #contact .mid .inp input{
     width: 150px;
-    height: 40px;
 }
-#contact .mid h4{
-    font-size: 15px;
-}
-#contact .mid h6{
+#contact .mid h4, #contact .mid h6{
     font-size: 13px;
     width: 80%;
-    line-height: 20px;
 }
 @media (max-width: 768px){
     #one .left h1{
         line-height: 40px;
-        width: 100%;
     }
     #one .right img{
         height: 200px;
     }
     #two .left h2, #two .right h2, #major .right h2, #major .left h3, #major .right h4{
         font-size: 18px;
+        line-height: 25px;
     }
-    #major .line{
+    #major .line {
         display: none;
     }
     #major .left h1, #contact .mid h1{
