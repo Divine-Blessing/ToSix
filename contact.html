@@ -10,13 +10,13 @@
 </head>
 <body>
     
-    <nav class="d-flex  justify-content-between">
+    <nav id="nava" class="d-flex  justify-content-between fixed-top">
         <div class="logo d-flex align-items-center  ms-3">
             <h3 class="purple fst-italic">PurplesHut</h3>
         </div>
         <ul class="nav justify-content-end m-2">
             <li class="nav-item">
-              <a class="nav-link text-body fw-normal" href="./index.html">Home</a>
+              <a class="nav-link text-body fw-normal " href="./index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-body fw-normal" href="./about.html">About Us</a>
@@ -27,10 +27,10 @@
           </ul>
     </nav>
 
-    <section id="contact" class="text-white">
+    <section id="contact" class="text-white d-flex flex-column align-items-center justify-content-center">
       <div class="container d-flex justify-content-center align-items-center">
         <div class="mid d-flex flex-column align-items-center ">
-          <h1 class="fw-lighter mb-4 pt-4">Contact Us</h1>
+          <h1 class="fw-normal mb-4 pt-4">Contact Us</h1>
           <input type="text" placeholder="Enter your Name" class=" border-2 bg-transparent border-top-0 border-start-0 border-end-0 border-bottom mb-4">
           <input type="text" name="" id="" placeholder="Enter a valid email address" class="border-2 bg-transparent border-top-0 border-start-0 border-end-0 border-bottom mb-4">
           <div class="inp">
@@ -39,21 +39,28 @@
 
           <div class="row d-flex justify-content-center">
             <div class="one ps-4 col d-flex flex-column justify-content-center">
-              <h4 class="fw-normal">CALL US</h4>
-              <h6 class="fw-lighter">08033445566 <br> 09066445544</h6>
+              <h4 class="fw-bold">CALL US</h4>
+              <h6 class="fw-normal">08033445566 <br> 09066445544</h6>
             </div>
             <div class="two col d-flex flex-column justify-content-center">
-              <h4 class="fw-normal">LOCATION</h4>
-              <h6 class="fw-lighter">No 3 Off thisPlaceDoesNotExist road.</h6>
+              <h4 class="fw-bold">LOCATION</h4>
+              <h6 class="fw-normal">No 3 Off thisPlaceDoesNotExist road.</h6>
             </div>
             <div class="three col d-flex flex-column align-items-center justify-content-center">
-              <h4 class="fw-normal">WORKING HOURS</h4>
-              <h6 class="fw-lighter">Mon - Fri --- 9am -5pm <br> Sat and Sun --- 9am -2pm</h6>
+              <h4 class="fw-bold">WORKING HOURS</h4>
+              <h6 class="fw-normal">Mon - Fri --- 9am -5pm <br> Sat and Sun --- 9am -2pm</h6>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    
+    <!-- FOOTER SECTION -->
+    <footer class="d-flex align-items-center justify-content-center">
+      <h2 class="text-white fw-normal">© 2021 <span class="fw-bold fst-italic purple">Purple's Hut</span></h2>
+    </footer>
+    <!-- END OF FOOTER SECTION -->
 
 
     <script src="./js/bootstrap.min.js"></script>
