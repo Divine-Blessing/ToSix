@@ -3,8 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} body{
-    font-family: 'Poppins', sans-serif;
 } #nava{ background: rgba(255, 255, 255, 0.6);
 } nav a, #one .right h6, #midd .kini h2, #third .right h2,  #two a, #major .left h3, #major .right h4{ 
     font-size: 20px;
@@ -81,19 +79,11 @@
     height: 7vh;
 } footer h2{ font-size: 18px;}
 @media (max-width: 768px){
-    #one .left h1{ 
-        line-height: 40px;
-    } #one .right img, #midd .kini img{
-        height: 200px; 
-    } #two .left h2, #two .right h2, #major .right h2, #major .left h3, #major .right h4{ font-size: 18px;
-        line-height: 25px;
-    } .line { 
-        display: none;
-    } #midd .kini img{
-        width: 300px;
-    } #major .left h1, #contact .mid h1{
-        font-size: 40px;
-    }
+    #one .left h1{ line-height: 40px;} 
+    #one .right img, #midd .kini img{ height: 200px; } 
+    #two .left h2, #two .right h2, #major .right h2, #major .left h3, #major .right h4{ font-size: 18px;  line-height: 25px;} .line { display: none;} 
+    #midd .kini img{ width: 300px; } 
+    #major .left h1, #contact .mid h1{ font-size: 40px;}
 }
 @media (max-width: 425px){
     nav .logo h3, #midd .kini h2, #major .right h4, #major .left h3, #one .left h5, #one .right h6, #major .right h2{
@@ -119,7 +109,7 @@
         align-items: center;
     } #third .left img{
         height: 200px;
-    } #third .left, #third .right{
+    } #third .left, #third .right, #two .left, #two .right{
         width: 100%;
         min-height: 45vh;
     } #third h2{
