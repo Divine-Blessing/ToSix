@@ -3,232 +3,136 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-body{
+} body{
     font-family: 'Poppins', sans-serif;
-}
-#nava{
-    background: rgba(255, 255, 255, 0.6);
-} 
-nav a, #one .right h6, #major .left h3, #major .right h4{ 
+} #nava{ background: rgba(255, 255, 255, 0.6);
+} nav a, #one .right h6, #midd .kini h2, #third .right h2,  #two a, #major .left h3, #major .right h4{ 
     font-size: 20px;
-} 
-.purple{
-    color: purple;
-} 
-#one .left{
-    min-height: 70vh;
-}
-#major .left, #major .right{
-    min-height: 100vh;
-} 
-#one{
+} .purple{ color: purple;} 
+#one .left{ min-height: 70vh;} 
+#major .left, #major .right{ min-height: 100vh;} 
+#one, #third, #third .container, #third .left, #third .right{
     min-height: 60vh;
-} 
-#one .container, #two .container, #major .container, #contact .container{
-    min-width: 100%;
-}
-#one .left, #major .left{
-    min-width: 55%;
-} 
-#one .left h1{
-    line-height: 50px;
-} 
-#one .left h1, #one .left h5{
+} #one .container, #two .container, #major .container, #contact .container, #one .left h1, #one .left h5{
     width: 100%;
-} 
-#one .right, #major .right{
-    width: 45%;
-} 
-#one .right img{
-    height: 300px;
-} 
-#midd{
-    min-height: 80vh;
-}
+} #one .left, #major .left{ min-width: 55%;} 
+#one .left h1{ line-height: 50px;} 
+#one .right, #major .right{ width: 45%;} 
+#one .right img{ height: 300px;} 
+#midd{ min-height: 80vh;} 
 #midd .kini img{
     height: 300px;
     width: 400px;
     border-radius: 300px;
     margin-bottom: 50px;
     margin-right: 20px;
-}
-#midd .kini h1{
-    font-size: 25px;
-}
-#midd .kini h2{
-    font-size: 20px;
-}
+} #midd .kini h1{ font-size: 25px;} 
 #midd .kini a{
     background-color: rgba(128, 0, 128, 0.425);
     border-radius: 5px;
     height: 25px;
     width: 200px;
-}
-#two{
+} #two{
     min-height: 50vh;
     background-color: grey;
-}
-#two .left h2, #two .right h2{
+} #two .left h2, #two .right h2{
     width: 95%;
     line-height: 30px;
-}
-#third, #third .container{
-    display: flex;
-    min-height: 60vh;
-}
-#third .left, #third .right{
-    width: 50%;
-    min-height: 60vh;
-}
-#third .left img{
-    height: 300px;
-}
-#third .right h1{
-    font-size: 30px;
-}
-#third .right h2,  #two a{
-    font-size: 20px;
-}
-#third .line{
+} #third, #third .container{ display: flex;
+} #third .left, #third .right{ width: 50%;} 
+#third .left img{ height: 300px;} 
+#third .right h1{ font-size: 30px;} 
+.line{
     background-color: purple; 
     height: 4px; 
     width: 150px;
-    top: 1820px;
-}
+} #third .line{ top: 1610px;} 
 #major{
     background-image: url(../img/marble-gf0eb109e2_1920.jpg);
+} #major .line{ 
+    top: 170px; 
+    left: 160px; 
+} #major .left h1{  font-size: 55px;}
+#two .left h2, #two .right h2, #major .right h2{
+    font-size: 23px;} #major, #contact{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-#major .line{ 
-    background-color: purple; 
-    height: 4px; 
-    width: 150px; 
-    top: 170px; 
-    left: 53px; 
-} 
-#major .left h1{ 
-    font-size: 55px;
-}
-#two .left h2, #two .right h2, #major .right h2{
-    font-size: 23px;
-} 
-#contact{
+} #contact{
     background-image: url(../img/texture-gf6c558b39_1920.jpg);
-    background-repeat: no-repeat;
-}
-#contact, #contact .container{
-    min-height: 105vh;
-} 
-#contact .mid{ 
+} #contact, #contact .container{ min-height: 105vh;
+} #contact .mid{ 
     background-color: rgba(128, 0, 128, 0.651); 
     box-shadow: 10px 10px 40px rgba(255, 255, 255, 0.151); 
     height: 500px; 
     width: 550px; 
-} 
-#contact .mid h1{
-    font-size: 50px;
-} 
-#contact .mid input{ 
+} #contact .mid h1{ font-size: 50px;
+} #contact .mid input{ 
     width: 300px; 
     height: 50px; 
-} 
-#contact .mid input::placeholder{
-    color: rgba(255, 255, 255, 0.664);
-} 
-#contact .mid .inp input{ 
+} #contact .mid input::placeholder{ color: rgba(255, 255, 255, 0.664);
+} #contact .mid .inp input{ 
     width: 150px;
-} 
-#contact .mid h4, #contact .mid h6{ 
+} #contact .mid h4, #contact .mid h6{ 
     font-size: 13px; 
     width: 80%;
-}
-footer{
+} footer{
     background: grey;
     height: 7vh;
-}
-footer h2{
-    font-size: 18px;
-}
+} footer h2{ font-size: 18px;}
 @media (max-width: 768px){
     #one .left h1{ 
         line-height: 40px;
-    }
-    #one .right img{
+    } #one .right img, #midd .kini img{
         height: 200px; 
-    } 
-    #two .left h2, #two .right h2, #major .right h2, #major .left h3, #major .right h4{ font-size: 18px;
+    } #two .left h2, #two .right h2, #major .right h2, #major .left h3, #major .right h4{ font-size: 18px;
         line-height: 25px;
-    } 
-    .line { 
+    } .line { 
         display: none;
-    } 
-    #midd .kini img{
-        height: 200px;
+    } #midd .kini img{
         width: 300px;
-    }
-    #major .left h1, #contact .mid h1{
+    } #major .left h1, #contact .mid h1{
         font-size: 40px;
     }
 }
 @media (max-width: 425px){
     nav .logo h3, #midd .kini h2, #major .right h4, #major .left h3, #one .left h5, #one .right h6, #major .right h2{
         font-size: 16px;
-    }
-    nav ul li a{ 
+    } nav ul li a{ 
         font-size: 12px;
-    }
-    .fcols{
+    } .fcols{
         flex-direction: column;
-    }
-    .mwid{
+    } .mwid{
         min-width: 100%;
-    }
-    #midd .kini img{
+    } #midd .kini img{
         height: 100px;
         width: 150px;
         margin-right: 10px;
-    }
-    #one .left, #two .right{
+    } #one .left, #two .right{
         padding-left: 30px;
-    }
-    #one .left, #one .right, #two .left, #two .right, #major .left, #major .right{min-height: 50vh;} #one .left h1{font-size: 25px;} #one .left h1, #one .left h5{
+    } #one .left, #one .right, #two .left, #two .right, #major .left, #major .right{min-height: 50vh;} #one .left h1{font-size: 25px;} #one .left h1, #one .left h5{
         width: 90%; 
         line-height: 30px;
-    } 
-    #third, #third .container{
+    } #third, #third .container{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    #third .left img{
+    } #third .left img{
         height: 200px;
-    }
-    #third .left, #third .right{
+    } #third .left, #third .right{
         width: 100%;
         min-height: 45vh;
-    }
-    #third h2{
+    } #third h2{
         width: 90%;
-    }
-    #major{
+    } #major{
         min-height: 180vh;
-    }
-     #major .left{
+    } #major .left{
          margin-bottom: 20px;
-    } 
-     #major .left h1{
-         font-size: 35px;
-    }
-    #contact{
+    } #major .left h1, #contact .mid h1 {
+         font-size: 30px;
+    } #contact{
         min-height: 120vh;
-    }
-    #contact .mid h1{
-        font-size: 30px;
-    } 
-    footer h2{
+    } footer h2{
         font-size: 15px;
     }
 }
